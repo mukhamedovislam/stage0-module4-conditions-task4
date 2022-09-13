@@ -20,7 +20,7 @@ class TernaryPrinterTest extends BaseIOTest {
 
         printer.printWhichIsBigger(1, 0);
 
-        assertOutEquals("first\n");
+        assertOutEquals("1\n");
     }
 
     @Test
@@ -29,7 +29,7 @@ class TernaryPrinterTest extends BaseIOTest {
 
         printer.printWhichIsBigger(1, 10);
 
-        assertOutEquals("second\n");
+        assertOutEquals("10\n");
     }
 
     @Test
@@ -38,7 +38,7 @@ class TernaryPrinterTest extends BaseIOTest {
 
         printer.printWhichIsBigger(1, 1);
 
-        assertOutEquals("second\n");
+        assertOutEquals("1\n");
     }
 
     @Test
