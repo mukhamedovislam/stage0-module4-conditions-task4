@@ -30,7 +30,7 @@ class TernaryAssignmentTest extends BaseIOTest {
     void assignAndPrintBasedOnWhichBiggerPrintWhenSecondIsBigger() {
         TernaryAssignment assignment = new TernaryAssignment();
 
-        assignment.assignAndPrintBasedOnWhichBigger(-10, 19);
+        assignment.assignAndPrintBasedOnWhichBigger(10, 19);
 
         assertOutEquals("-10\n");
     }
